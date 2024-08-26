@@ -1,0 +1,210 @@
+body {
+    font-family: "Montserrat Alternates", sans-serif;
+    margin: 0px;
+    background-color: #232323;
+    color: #fff;
+    /* padding: 2rem; */
+}
+
+.signup {
+    background-color: #121212;
+    width: 45rem;
+    height: 125vh;
+    margin: 2rem auto;
+    border-radius: 10px;
+}
+
+.logo-img {
+    padding: 2rem 0 1.5rem 0;
+    display: flex;
+    justify-content: center;
+}
+.spotify-logo {
+    height: 2.35rem;
+}
+
+.heading-container {
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    margin: 0 0 2rem 0;
+}
+
+.badges-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.badge {
+    background-color: #121212;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 100px;
+    padding: 0.5rem 2rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.915rem;
+    font-weight: 800;
+    height: 3rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-icon img{
+    height: 1.5rem;
+    border-radius: 15px;
+}
+
+.badge-content {
+    margin: 0.4rem 1.5rem;
+}
+
+.footer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    width: 75%;
+    height: 5%;
+    border-top: 2px solid white;
+    opacity: 0.2;
+}
+
+.usr {
+    margin: 5px auto;
+    padding-left: 13rem;
+}
+.login-label {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.login-input {
+    background-color: #121212;
+    color: white;
+    border: 1px solid grey;
+    height: 3rem;
+    width: 18.5rem;
+    margin-bottom: 1rem;
+    border-radius: 7px;
+}
+
+input::placeholder {
+    font-size: 1rem;
+    padding-left: 0.7rem;
+}
+
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 2rem;
+    height: 1rem;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 1rem;
+    width: 1rem;
+    /* left: 4px;
+    bottom: 4px; */
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: 	#1DB954;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px 	#1DB954;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(1rem);
+    -ms-transform: translateX(1rem);
+    transform: translateX(1rem);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .toggle {
+    padding-left: 13rem;
+  }
+
+  .toggle-text {
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    position: relative;
+    bottom: 0.25rem;
+  }
+
+  .button-login-box {
+    padding: 2rem 0 1rem 13rem;
+  }
+
+  #button-login {
+    background-color: #1DB954;
+    color: black;
+    height: 2rem;
+    width: 15rem;
+    text-decoration: none;
+  }
+
+  .pass-a {
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+
+  #pass-a {
+    color: white;
+  }
+
+  .bottom-para {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  .bottom-para-text {
+    opacity: 0.7;
+  }
